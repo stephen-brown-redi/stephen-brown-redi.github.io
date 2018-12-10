@@ -1,0 +1,42 @@
+body {
+  background: pink;
+  height: 100vh;
+}
+
+.flex {
+  background: turquoise;
+  color: white;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+#one {
+  background: red;
+  display: inline-block;
+  width: 50%;
+  height: 30%;
+  font-size: 1rem;
+}
+
+#two {
+  background: yellow;
+  display: inline-block;
+  width: 50%;
+  font-size: 12px;
+  margin-left: 25%;
+}
+
+#three {
+  background: purple;
+  width: 50%;
+  font-size: 12px;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+  align-items: center;
+}
